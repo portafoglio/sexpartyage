@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+*{padding:0;margin:0;}
+
+#container1{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+}
+
+.titolo{
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.sottotitolo{
+    font-family: 'Archivo Black', sans-serif;
+}
+
+#chiudi{
+    position: relative;
+    top: 50px;
+    width: 300px;
+    height: 50px;
+    background-color: #ff3c7a;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}

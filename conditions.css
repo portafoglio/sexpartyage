@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+*{padding:0;margin:0;}
+
+
+#container1{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+}
+
+.titolo{
+    font-family: 'Archivo Black', sans-serif;
+}
+
+#container2{
+    width: 95%;
+    position: relative;
+    left: 12px;
+    height: 300px;
+    top: 50px;
+    border: 1px solid rgb(102, 102, 102);
+    overflow-y: scroll;
+    background-color: rgb(218, 218, 218);
+}
+
+#container3{
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: initial;
+    gap: 10px;
+}
+
+.ceck{
+    position: relative;
+    left: 5px;
+}
+
+.dichiaro{
+    font-family: arial;
+}
+
+#container4{
+    position: relative;
+    top: 150px;
+    width: 100%;
+    text-align: center;
+}
+
+.accetto{
+    width: 300px;
+    height: 50px;
+    background-color: #ff3c7a;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-family: 'Archivo Black', sans-serif;
+    cursor: pointer;
+    
+}
+
+.rifiuto{
+    width: 300px;
+    height: 50px;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-family: 'Archivo Black', sans-serif;
+    cursor: pointer;
+    margin-top: 7px;
+}
