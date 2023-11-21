@@ -1,3 +1,5 @@
+let container2 = document.getElementById("container2");
+
 function verificateAge() {
     let dataNascita = document.getElementById("dateAge").value;
 
@@ -12,7 +14,10 @@ function verificateAge() {
 
     if (eta >= 18) {
         window.location.href = "terminiecondizioni.html";
+        container2.style.display="none";
     } else {
         window.location.href = "accessonegato.html";
+        container2.style.display="none";
     }
 }
+
