@@ -1,4 +1,7 @@
 let container2 = document.getElementById("container2");
+let container3 = document.getElementById("container3");
+
+container3.style.display="none";
 
 function verificateAge() {
     let dataNascita = document.getElementById("dateAge").value;
@@ -18,6 +21,6 @@ function verificateAge() {
     } else {
         window.location.href = "accessonegato.html";
         container2.style.display="none";
+        container3.style.display="none";
     }
 }
-
