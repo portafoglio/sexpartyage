@@ -21,6 +21,6 @@ function verificateAge() {
     } else {
         window.location.href = "accessonegato.html";
         container2.style.display="none";
-        container3.style.display="none";
+        container3.style.display="block";
     }
 }
