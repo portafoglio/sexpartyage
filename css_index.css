@@ -50,3 +50,36 @@
     cursor: pointer;
 }
 
+
+#container3{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+
+.vuotoLogo{
+    width: 100px;
+    position: relative;
+    top: 50px;
+}
+
+.messaggio{
+    position: relative;
+    top: 70px;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 20px;
+}
+
+#chiudiVuoto{
+    position: relative;
+    top: 100px;
+    width: 300px;
+    height: 50px;
+    background-color: #ff3c7a;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-family: 'Archivo Black', sans-serif;
+    cursor: pointer;
+}
